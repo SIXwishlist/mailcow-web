@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>mailcow UI</title>
+<title>elaonDE Mail</title>
 <!--[if lt IE 9]>
   <script src="/js/html5shiv.min.js"></script>
   <script src="/js/respond.min.js"></script>
@@ -86,13 +86,6 @@
             ?>
           </ul>
         </li>
-        <?php
-        if ($_SESSION['mailcow_cc_role'] == 'admin') {
-        ?>
-        <li><a href data-toggle="modal" data-target="#RestartSOGo"><span style="font-size: 12px;" class="glyphicon glyphicon-refresh" aria-hidden="true"></span> <?= $lang['header']['restart_sogo']; ?></a></li>
-        <?php
-        }
-        ?>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Apps <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
