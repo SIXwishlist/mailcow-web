@@ -14,6 +14,11 @@ $database_user = getenv('DBUSER');
 $database_pass = getenv('DBPASS');
 $database_name = getenv('DBNAME');
 
+
+// Redis connection
+$redis_host = '127.0.0.1';
+$redis_port = 6379;
+
 // Other variables
 $mailcow_hostname = getenv('MAILCOW_HOSTNAME');
 

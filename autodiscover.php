@@ -9,7 +9,7 @@ $autodiscover_config = array_merge($default_autodiscover_config, $autodiscover_c
 
 // Redis
 $redis = new Redis();
-$redis->connect('redis-mailcow', 6379);
+$redis->connect($redis_host, $redis_port);
 
 error_reporting(0);
 

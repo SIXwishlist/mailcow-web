@@ -22,7 +22,7 @@ $tfa = new RobThree\Auth\TwoFactorAuth($OTP_LABEL);
 
 // Redis
 $redis = new Redis();
-$redis->connect('redis-mailcow', 6379);
+$redis->connect($redis_host, $redis_port);
 
 // PDO
 // Calculate offset
